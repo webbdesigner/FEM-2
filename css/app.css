@@ -8,7 +8,7 @@ body {
   background: #f2f2f2;
   color: rgba(255, 255, 255, 0.75);
   letter-spacing: 1px; }
-  body main {
+  body #main-content {
     width: 90%;
     border-radius: 0.5em;
     overflow: hidden;
@@ -16,30 +16,30 @@ body {
     line-height: 1.5rem;
     max-width: 920px; }
     @media (min-width: 770px) {
-      body main {
+      body #main-content {
         display: flex; } }
-    body main .card {
+    body #main-content .card {
       width: 100%;
       padding: 3em; }
-      body main .card.burnt-orange {
+      body #main-content .card.burnt-orange {
         background-color: #e38826; }
-        body main .card.burnt-orange button {
+        body #main-content .card.burnt-orange .card--button {
           color: #e38826; }
-      body main .card.dark-cyan {
+      body #main-content .card.dark-cyan {
         background: #006970; }
-        body main .card.dark-cyan button {
+        body #main-content .card.dark-cyan button {
           color: #006970; }
-      body main .card.darker-cyan {
+      body #main-content .card.darker-cyan {
         background: #004241; }
-        body main .card.darker-cyan button {
+        body #main-content .card.darker-cyan .card--button {
           color: #004241; }
-      body main .card--heading {
+      body #main-content .card--heading {
         font-family: "Big Shoulders Display", sans-serif;
         text-transform: uppercase;
         color: #f2f2f2;
         font-size: 2rem;
         margin-bottom: 1em; }
-      body main .card--button {
+      body #main-content .card--button {
         background: #f2f2f2;
         border-radius: 2.5em;
         padding: 1em 1.75em;
@@ -47,9 +47,9 @@ body {
         border: white 0.2rem solid;
         transition: all 0.5s ease;
         font-size: 0.95rem; }
-        body main .card--button:hover {
+        body #main-content .card--button:hover {
           background-color: transparent;
           transition: all 0.5s ease;
-          color: white; }
+          color: white !important; }
 
 /*# sourceMappingURL=app.css.map */

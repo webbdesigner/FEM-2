@@ -6,7 +6,7 @@ body
   background: $light-gray
   color: rgba($white, 75%)
   letter-spacing: 1px
-  main
+  #main-content
     width: 90%
     border-radius: 0.5em
     overflow: hidden
@@ -20,7 +20,7 @@ body
       padding: 3em
       &.burnt-orange
         background-color: $burnt-orange
-        button
+        .card--button
           color: $burnt-orange
       &.dark-cyan
         background: $dark-cyan
@@ -28,7 +28,7 @@ body
           color: $dark-cyan
       &.darker-cyan
         background: $darker-cyan
-        button
+        .card--button
           color: $darker-cyan
       &--heading
         font-family: $heading
@@ -47,4 +47,4 @@ body
         &:hover
           background-color: transparent
           transition: $transition
-          color: $white
+          color: $white !important
