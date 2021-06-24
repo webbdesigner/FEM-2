@@ -1,0 +1,50 @@
+*
+  box-sizing: border-box
+body
+  font-family: $body
+  font-size: $body-size
+  background: $light-gray
+  color: rgba($white, 75%)
+  letter-spacing: 1px
+  main
+    width: 90%
+    border-radius: 0.5em
+    overflow: hidden
+    margin: 12vh auto
+    line-height: 1.5rem
+    max-width: 920px
+    @media (min-width: $bp)
+      display: flex
+    .card
+      width: 100%
+      padding: 3em
+      &.burnt-orange
+        background-color: $burnt-orange
+        button
+          color: $burnt-orange
+      &.dark-cyan
+        background: $dark-cyan
+        button
+          color: $dark-cyan
+      &.darker-cyan
+        background: $darker-cyan
+        button
+          color: $darker-cyan
+      &--heading
+        font-family: $heading
+        text-transform: uppercase
+        color: $light-gray
+        font-size: $heading-size
+        margin-bottom: 1em
+      &--button
+        background: $light-gray
+        border-radius: 2.5em
+        padding: 1em 1.75em
+        margin-top: 3.75em
+        border: $white .2rem solid
+        transition: $transition
+        font-size: $body-size
+        &:hover
+          background-color: transparent
+          transition: $transition
+          color: $white
