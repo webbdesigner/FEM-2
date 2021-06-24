@@ -21,6 +21,9 @@ body {
     body #main-content .card {
       width: 100%;
       padding: 3em; }
+      body #main-content .card--img {
+        width: 60px;
+        height: 40px; }
       body #main-content .card.burnt-orange {
         background-color: #e38826; }
         body #main-content .card.burnt-orange .card--button {
