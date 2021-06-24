@@ -45,7 +45,7 @@ body {
       body #main-content .card--button {
         background: #f2f2f2;
         border-radius: 2.5em;
-        padding: 1em 1.75em;
+        padding: 0.875em 1.75em;
         margin-top: 3.75em;
         border: white 0.2rem solid;
         transition: all 0.5s ease;
